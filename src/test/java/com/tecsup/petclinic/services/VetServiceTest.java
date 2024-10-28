@@ -63,7 +63,6 @@ public class VetServiceTest {
         assertEquals(FIRST_NAME, vetCreated.getFirstName());
         assertEquals(LAST_NAME, vetCreated.getLastName());
     }
-
     @Test
     public void testUpdateVet() {
 
@@ -93,6 +92,15 @@ public class VetServiceTest {
         assertEquals(UP_LAST_NAME, updatedVet.getLastName());
     }
 
+
+
+
+
+
+
+
+
+    
     @Test
     public void testDeleteVet() {
 
@@ -119,4 +127,5 @@ public class VetServiceTest {
             assertTrue(true);
         }
     }
+
 }
