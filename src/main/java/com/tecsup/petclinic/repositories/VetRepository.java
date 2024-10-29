@@ -9,16 +9,16 @@ import com.tecsup.petclinic.entities.Vet;
 
 /**
  *
- * @author
+ * @author [Tu Nombre]
  *
  */
 @Repository
 public interface VetRepository extends JpaRepository<Vet, Integer> {
 
-    // Fetch vets by first name
+    // Buscar veterinarios por nombre
     List<Vet> findByFirstName(String firstName);
 
-    // Fetch vets by last name
+    // Buscar veterinarios por apellido
     List<Vet> findByLastName(String lastName);
 
     @Override

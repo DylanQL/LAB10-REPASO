@@ -5,7 +5,7 @@ import lombok.Data;
 
 /**
  *
- * @author [Your Name]
+ * @author [Tu Nombre]
  *
  */
 @Entity(name = "vets")
@@ -21,8 +21,6 @@ public class Vet {
 
     @Column(name = "last_name")
     private String lastName;
-
-    // Constructors
 
     public Vet() {
     }

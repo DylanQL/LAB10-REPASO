@@ -2,7 +2,7 @@ package com.tecsup.petclinic.exception;
 
 /**
  *
- * @author [Your Name]
+ * @author [Tu Nombre]
  *
  */
 public class VetNotFoundException extends Exception {
