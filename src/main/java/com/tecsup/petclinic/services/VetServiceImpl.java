@@ -11,7 +11,6 @@ import com.tecsup.petclinic.repositories.VetRepository;
 
 /**
  *
- * @author [Tu Nombre]
  *
  */
 @Service
